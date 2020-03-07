@@ -1,0 +1,27 @@
+{
+  "name": "slack-clone-server",
+  "version": "1.0.0",
+  "description": "GraphQL server for slack-clone project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js",
+    "lint": "eslint"
+  },
+  "keywords": [],
+  "author": "bplatek",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.11.0",
+    "graphql": "^14.6.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.7",
+    "@babel/plugin-transform-modules-commonjs": "^7.8.3",
+    "@babel/preset-flow": "^7.8.3",
+    "@babel/register": "^7.8.6",
+    "eslint": "^6.8.0",
+    "nodemon": "^2.0.2"
+  }
+}
